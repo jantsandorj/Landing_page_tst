@@ -1,0 +1,137 @@
+
+body {background-color: #FDFDFD; padding: 0; margin: 0; font-family: 'Rubik', sans-serif;}
+p, ul {margin: 0; padding: 0;}
+header {display: flex; width: 100%; justify-content: space-between; align-items: center;}
+nav ul {display: flex; list-style: none; gap: 19px;}
+nav ul li a {color: #4F5665;
+    font-family: Rubik;
+    font-size: 7.517px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+a {text-decoration: none; color: #4F5665;}
+.container {width: 100%; margin: 0 auto; max-width: 536px;} 
+button {background-color: #FFFFFF; border: none; width: 70px; height: 21px; cursor: pointer;}
+
+.outline_btn {border: 0.47px solid #F53855; border-radius: 23.5px; color: #F53855;}
+.get_started {display: flex; flex-direction: column;}
+.intro {display: flex; justify-content: space-between;}
+.stats {display: flex; max-width: 536px; justify-content: space-between; margin: 0 auto; flex: 1 0 auto;}
+.service {display: flex;}
+.reg button {font-weight: 500;
+    font-size: 7.517px;
+    font-style: normal;
+    line-height: normal;}
+h1 {color: #0B132A;
+    font-size: 23.491px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.888px; /* 140% */}
+h1 + p {color: #4F5665;
+    font-size: 7.517px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.095px; /* 187.5% */
+}
+.intro button span {color: #FFF;
+    font-size: 7.517px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 11.746px; /* 156.25% */}
+.intro button { width: 117.456px;
+    height: 28.19px;
+    flex-shrink: 0;
+    border-radius: 4.698px;
+    background: #F53838;
+    display: block;
+}
+.intro button::after {
+    content: "";
+    display: block;
+    width: 99.523px;
+height: 28.19px;
+flex-shrink: 0;
+border-radius: 4.698px;
+background: rgba(245, 56, 56, 0.35);
+filter: blur(12.685293197631836px);
+}
+.stat {display: flex; align-items: center; justify-content: center; width: 100%;}
+.stat > div > span {
+    color: #0B132A;
+font-size: 11.746px;
+font-style: normal;
+font-weight: 700;
+line-height: 14.095px; /* 120% */
+}
+.stat > div > p {
+color: #4F5665;
+font-size: 9.397px;
+font-style: normal;
+font-weight: 400;
+line-height: 14.095px; /* 150% */}
+.stats {width: 536px; height: 94px; border-radius: 4.698px;
+    background: #FFF; align-items: center; justify-content: center;}
+.image_back{position: relative; width: 25.8px; height: 25.8px; display: flex; align-items: center; justify-content: center;}
+    .image_back:after { content: ""; width: 25.84px;
+    display: block;
+    height: 25.84px;
+    flex-shrink: 0;
+    border-radius: 32.888px;
+    background: #FFECEC; 
+top: 0;
+left: 0;
+position: absolute; 
+z-index: 0;}
+.image_back img {z-index: 2; position: relative;}
+.features ul {list-style-image: url(/assets/img/bx_bxs-check-circle.svg)}
+.plan h2, .plan p, .location h2, .location p, .comments h2, .comments p {text-align: center;}
+.card_wrap {display: flex; justify-content: space-around;}
+.card {width: 155.042px;
+    height: 357.068px;
+    flex-shrink: 0;
+    border-radius: 4.698px;
+    border: 0.94px solid #DDD;
+    background: #FFF;}
+.card ul {list-style-image: url(/assets/img/jam_check.svg);}
+.card_bottom {display: flex; flex-direction: column; align-items: center;}
+.card_bottom span {color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 11.746px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14.095px; /* 120% */}
+.card_bottom button span {color: #F53838;
+    font-family: Rubik;
+    font-size: 7.517px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;}
+.card_top {display: flex;
+flex-direction: column; 
+align-items: center;}
+h2 {color: #0B132A;
+    font-size: 16.444px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.491px; /* 142.857% */}
+h2 + p {color: #4F5665;
+    font-family: Rubik;
+    font-size: 7.517px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.095px; /* 187.5% */}
+
+    ul li {color: #4F5665;
+        font-family: Rubik;
+        font-size: 6.578px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14.095px; /* 214.286% */}
+.card img + p {color: #0B132A;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 8.457px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14.095px; /* 166.667% */}
